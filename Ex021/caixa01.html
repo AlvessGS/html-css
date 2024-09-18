@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixa</title>
+
+    <style>
+        div {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            
+            border: 10px solid darkslategray;
+
+            padding: 10px;
+
+            margin: 10px auto 20px auto;
+
+            outline: 10px solid salmon;
+        }
+
+        div:hover > h2 {
+            display: block;
+
+        }
+
+        h2 {
+            text-align: center;
+            display: none;
+            color: red;
+        }
+
+        h1 {
+            text-align: center;
+
+            margin: 10px auto 10px auto;
+
+            padding: 10px 10px 10px 10px;
+
+            outline: 5px dashed salmon;
+        }
+
+        p {
+            text-align: center;
+        }
+        
+        a {
+            border: 10px solid salmon;
+
+            padding: 10px 10px 10px 10px;
+
+            display: block;
+        
+        }
+
+    </style>
+</head>
+<body>
+
+    <div>
+    <h1>Exemplo de box level</h1>
+
+    <h2>Texto escondido</h2>
+    </div>
+    <p>Paragrafo também são exemplos de box level, mas os <a href="#"> os links são exemplos de caixas in line level</a>Vamos ver como tudo isso funciona.</p>
+    
+</body>
+</html>

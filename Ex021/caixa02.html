@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags semanticas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            
+        }
+
+        header {
+            width: 600px;
+            height: 100px;
+            background-color: white;
+            padding-left: 10px;
+            
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 9px 0 black;
+
+        }
+
+        footer {
+            background-color: blueviolet;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+
+        }
+
+        nav {
+            background-color: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        nav > a:hover {
+            text-decoration: underline;
+        } 
+        h2 {
+            padding-top: 0px;
+        }
+
+        a {
+            background-color: rgb(209, 205, 205);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        a:hover {
+            background-color: rgb(145, 141, 141);
+            color: white;
+        }
+
+        footer {
+            border-radius: 10px;
+        }
+
+        #bola {
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+
+        }
+
+        #bola > img {
+        
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+
+        }
+    
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav> <!--utilizado para colocar links-->
+            <a style="color: blueviolet;" href="">Esporte</a>
+            <a style="color: rgb(43, 43, 240);" href="">Educação</a>
+            <a style="color: rgb(235, 53, 159);" href="">Financeiro</a>
+            <a style="color: rgb(107, 201, 157);" href="">Lazer</a>
+            <a style="color: rgb(187, 76, 76);" href="">Orçamentos</a>
+        </nav>
+    </header>
+
+    <main> <!--conteudo principal-->
+        <section id="Noticias">
+            <article>
+                <aside>
+                    <h2>Noticias sobre o brasil </h2>
+                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quia quo placeat? Sunt voluptatum, veritatis alias quam explicabo pariatur quis ea porro adipisci accusantium? Voluptatibus dicta veritatis dignissimos ea facere!</P>
+                </aside>
+                <p>Artigo escrito por jose da silva</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+
+    <div id="bola">
+        <img src="paisagem-1200.jpeg" alt="paisagem">
+    </div>
+</body>
+</html>

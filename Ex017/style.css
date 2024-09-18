@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    }
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+div {
+    background-color: goldenrod;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+    margin: auto;
+    box-shadow: 1px 1px 2px black;
+}
